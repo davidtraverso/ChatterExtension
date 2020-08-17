@@ -1,0 +1,21 @@
+{
+  "name": "Chatter Extension",
+  "version": "1.0",
+  "description": "Use color to indicate chatter origin",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.livechatinc.com/*"],
+      "run_at": "document_idle",
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "*://*.livechat.com/*"
+  ]
+}
