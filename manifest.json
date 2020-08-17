@@ -14,6 +14,11 @@
       "js": ["content.js"]
     }
   ],
+  "icons": { 
+    "16": "images/dwight_16.png",
+    "48": "images/dwight_48.png",
+   "128": "images/dwight_128.png" 
+  },
   "permissions": [
     "tabs",
     "*://*.livechat.com/*"
