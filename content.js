@@ -25,7 +25,7 @@ const doTheThing = ({ colorFromStorage, classNameFromStorage }) => {
       return [...nodeCollection];
     };
     
-    const chatType = getChatType('.css-103tagr');
+    const chatType = getChatType('.css-1caczvn');
     const newColor = colorFromStorage || '#b7dae8';
     const classToBeChanged = classNameFromStorage || 'lc-1uohnvk'|| 'css-14yy7yi';
     const nodesToBeChanged = getNodeArray(classToBeChanged)

@@ -1,6 +1,6 @@
 {
   "name": "Chatter Extension",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Use color to indicate chatter origin",
   "manifest_version": 2,
   "background": {
